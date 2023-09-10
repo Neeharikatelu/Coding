@@ -216,3 +216,120 @@ int main(){
 }
 
 
+/*
+OUTPUT:
+
+Enter your choice:1
+
+Pattern 1: 
+5
+*****
+*****
+*****
+*****
+*****
+Enter your choice:2
+
+Pattern 2: 
+5
+*
+**
+***
+****
+*****
+Enter your choice:3
+
+Pattern 3: 
+5
+*****
+****
+***
+**
+*
+Enter your choice:4
+
+Pattern 4: 
+5
+    *    
+   ***   
+  *****  
+ ******* 
+*********
+Enter your choice:5
+
+Pattern 5
+5
+*****
+*   *
+*   *
+*   *
+*****
+Enter your choice:6
+
+Pattern 6
+5
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+Enter your choice:7
+
+Pattern 7
+5
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+Enter your choice:8
+
+Pattern 8
+5
+1 2 3 4 
+1 2 3 
+1 2 
+1 
+Enter your choice:9
+
+Pattern 9
+5
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+11 12 13 14 15 
+Enter your choice:10
+
+Pattern 10
+5
+A 
+A B 
+A B C 
+A B C D 
+A B C D E 
+Enter your choice:11
+
+Pattern 11
+5
+        
+   AB   
+  ABCB  
+ ABCDCB 
+ABCDEDCB
+Enter your choice:12
+
+Pattern 12
+5
+*********
+***  ****
+**    ***
+*      **
+        *
+*        *
+**      **
+***    ***
+****  ****
+**********
+
+*/
