@@ -75,7 +75,7 @@ int n;
     int largest = findlargestElement(a, n);
     int smallest= findsmallestElement(a,n);
     int uniqueCount = removeDuplicates(a, n);
-    int val = search(a, n, num);
+    int val = search(a, n, 4);
     bool sorted = isSorted(a, n);
    
 
