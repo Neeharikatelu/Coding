@@ -90,5 +90,5 @@ int n;
         cout << a[i] << " ";
     }
 
-    cout << "Index of " <<num<< " in the array: " << val << endl;
+    cout << "Index of 4 in the array: " << val << endl;
 }
