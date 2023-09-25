@@ -68,14 +68,11 @@ int n;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
-
-    int num;
-    cin>>num;
     
     int largest = findlargestElement(a, n);
     int smallest= findsmallestElement(a,n);
     int uniqueCount = removeDuplicates(a, n);
-    int val = search(a, n, 4);
+    int val = search(a, n, 3);
     bool sorted = isSorted(a, n);
    
 
@@ -90,5 +87,5 @@ int n;
         cout << a[i] << " ";
     }
 
-    cout << "Index of 4 in the array: " << val << endl;
+    cout << "Index of 3 in the array: " << val << endl;
 }
