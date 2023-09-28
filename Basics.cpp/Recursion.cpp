@@ -32,9 +32,9 @@ void fun3(int n){
     }
 }
 
-void fun4(int n){
+int fun4(int n){
     int a=1;
-    for(int i=1;i<n;i++){
+    for(int i=1;i<=n;i++){
     a=a*i;
     }
     return a;
@@ -57,6 +57,10 @@ fun2(n,n);
 cout<<endl;
 fun3(n);
 cout<<endl;
+
+int ans=fun4(n);
+cout<<ans;
 fun4(n);
+
 return 0;
 }
