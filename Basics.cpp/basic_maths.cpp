@@ -1,6 +1,6 @@
-//Finding GCD of two numbers 
 
 #include <iostream>
+#include<cmath>
 
 using namespace std;
 
@@ -10,22 +10,6 @@ int gcd(int a,int b){
     }
     return gcd(b,a%b);
 }
-int main(){
-int a,b;
-cin>>a>>b;
-cout<<"GCD of "<<a<<" and "<<b<<" is "<<gcd(a,b)<<endl;
-
-return 0;
-}
-
-
-
-// Check if a number is Amstrong Number or not 
-
-#include <iostream>
-#include <cmath>
-
-using namespace std;
 
 bool isArmstrong(int n) {
     int Number = n;
@@ -49,27 +33,6 @@ bool isArmstrong(int n) {
     return (sum == Number);
 }
 
-int main() {
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
-
-    if (isArmstrong(num)) {
-        cout << "It is an Armstrong Number" << endl;
-    } else {
-        cout << "Not an Armstrong Number" << endl;
-    }
-
-    return 0;
-}
-
-
-
-//Finding Diviosrs
-
-#include <bits/stdc++.h>
-using namespace std;
-
 int printdivisors(int n){
     cout<<"The divisors of "<<n<<" are:"<<endl;
     for(int i=1;i<=sqrt(n);i++)
@@ -80,25 +43,7 @@ int printdivisors(int n){
         }
             cout<<"\n";
    }
-
 }
-
-int main(){
-
-    int n;
-    cin>>n;
-
-    printdivisors(n);
-    return 0;
-}
-
-
-//Checking if a number is prime or not 
-
-#include <iostream>
-#include<bits/stdc++.h>
-
-using namespace std;
 
 bool Prime(int n){
     for(int i=2;i<sqrt(n);i++){
@@ -108,10 +53,24 @@ bool Prime(int n){
     }
     return true;
 }
-int main(){
- int n;
- cin>>n;
-  bool prime=Prime(n);
+
+
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+
+    if (isArmstrong(n)) {
+        cout << "It is an Armstrong Number" << endl;
+    } else {
+        cout << "Not an Armstrong Number" << endl;
+    }
+
+    
+    printdivisors(n);
+
+    bool prime=Prime(n);
 
     if(n!=1 && prime==true){
        cout<<"Pime Number";
@@ -121,3 +80,6 @@ int main(){
     }
     return 0;
 }
+   
+
+
