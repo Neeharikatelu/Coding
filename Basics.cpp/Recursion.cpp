@@ -25,6 +25,13 @@ void fun2(int i,int n){
     fun2(i,n);
 }
 
+void fun3(int n){
+    int s=0;
+    for(int i=1;i<=n;i++){
+    s+=i;
+    }
+}
+
 int main(){
 int n;
 cin>>n;
@@ -39,6 +46,8 @@ cout<<endl;
 fun1(1,n);
 cout<<endl;
 fun2(n,n);
+cout<<endl;
+fun3(n);
 
 return 0;
 }
